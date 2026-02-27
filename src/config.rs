@@ -72,6 +72,7 @@ lazy_static::lazy_static! {
         ("hide-cm".to_owned(), "Y".to_owned()),
         ("hide-me-all".to_owned(), "Y".to_owned()),
         ("disable-installation".to_owned(), "Y".to_owned()),
+        ("conn-type".to_owned(), "incoming".to_owned()),
     ]));
     pub static ref BUILTIN_SETTINGS: RwLock<HashMap<String, String>> = Default::default();
 }
